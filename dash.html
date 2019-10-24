@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/d4ff94fd32.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://kit.fontawesome.com/d4ff94fd32.js" crossorigin="anonymous"></script>
+    <title>Helping Hands</title>
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="logo-container">
+            <h2>Helping Hands</h2>
+        </div>
+        <div class="profile-container">
+            <div class="profile-content">
+                <i class="fas fa-user-circle"></i>
+                <h2>Dr Frankenstein</h2>
+            </div>
+            <div class="profile-actions">
+                <h3>log out <i class="fas fa-sign-out-alt"></i></h3>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content-container">
+        <div class="main-navigation">
+            <div class="main-nav-header">
+                <h2>Main Navigation</h2>
+            </div>
+            <div class="hospital-details">
+                <img src="/images/h-a-m-a-n-n-8kDx62gZRzk-unsplash-min.jpg" alt="">
+                <h3>NSK Hospital</h3>
+            </div>
+            <div class="dashboard-menu">
+                <h4>MAIN</h4>
+                <ul class="dashboard-links">
+                    <li><i class="fas fa-home"></i>dashboard</li>
+                    <li>
+                        <div class="menu-option">
+                            <div>
+                            <i class="fas fa-user-nurse"></i>Doctor
+                            <div class="dropdown-link">
+                                <span class="dropdown-item">View Doctor</span>
+                            </div>
+                            </div>
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-option">
+                            <div>
+                            <i class="fas fa-user-nurse"></i>Patient
+                            <div class="dropdown-link">
+                                <span class="dropdown-item">View Diagnosis</span>
+                            </div>
+                            </div>
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-option">
+                            <div>
+                            <i class="fas fa-user-nurse"></i>Medication
+                            <div class="dropdown-link">
+                                <span class="dropdown-item">View Medication</span>
+                            </div>
+                            </div>
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                        
+                    <li>
+                        <div class="menu-option">
+                            <div>
+                            <i class="fas fa-user-nurse"></i>Appointments
+                            <div class="dropdown-link">
+                                <span class="dropdown-item">Book Appointment</span>
+                            </div>
+                            </div>
+                            <i class="fas fa-caret-down"></i>
+
+                        </div>                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        
+        <div class="legend">
+            <div class="appointment-legend">
+                <div class="box-color green-color"></div>All Appointments
+            </div>
+            <div class="appointment-legend">
+                <div class="box-color pink-color"></div>All Checkups
+            </div>
+        </div>
+
+        <div class="calendar">
+            <div class="days">
+                <div>
+                    <h5>Mon</h5>
+                    <span class="day-block">1</span>
+                    <span class="day-block">8</span>
+                    <span class="day-block appointment">15</span>
+                    <span class="day-block">22</span>
+                    <span class="day-block">29</span>
+                </div>
+                <div>
+                    <h5>Teu</h5>
+                    <span class="day-block">2</span>
+                    <span class="day-block">9</span>
+                    <span class="day-block">16</span>
+                    <span class="day-block">23</span>
+                    <span class="day-block">30</span>
+                </div>
+                <div>
+                    <h5>Wed</h5>
+                    <span class="day-block">3</span>
+                    <span class="day-block">10</span>
+                    <span class="day-block">17</span>
+                    <span class="day-block">24</span>
+                    <span class="day-block next-month">1</span>
+                </div>
+                <div>
+                    <h5>Thurs</h5>
+                    <span class="day-block">4</span>
+                    <span class="day-block">11</span>
+                    <span class="day-block">18</span>
+                    <span class="day-block">25</span>
+                    <span class="day-block next-month">2</span>
+                </div>
+                <div>
+                    <h5>Fri</h5>
+                    <span class="day-block checkup">5</span>
+                    <span class="day-block">12</span>
+                    <span class="day-block">19</span>
+                    <span class="day-block">26</span>
+                    <span class="day-block next-month">3</span>
+                </div>
+                <div>
+                    <h5>Sat</h5>
+                    <span class="day-block">6</span>
+                    <span class="day-block">13</span>
+                    <span class="day-block">20</span>
+                    <span class="day-block">27</span>
+                    <span class="day-block next-month">4</span>
+                </div>
+                <div>
+                    <h5>Sun</h5>
+                    <span class="day-block">7</span>
+                    <span class="day-block">14</span>
+                    <span class="day-block">21</span>
+                    <span class="day-block appointment">28</span>
+                    <span class="day-block next-month">5</span>
+                </div>                
+            </div>
+        </div>
+        <div class="daily-duties">
+           <h5>Daily Duties</h5>
+            <div class="duties-input-container">
+                <input type="text" placeholder="Task Name">
+                <input type="text" placeholder="Task Description">
+                <button type="button">Add Task</button>
+            </div>
+            <div class="added-tasks"></div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
